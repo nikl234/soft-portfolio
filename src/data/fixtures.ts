@@ -1,23 +1,23 @@
 export default {
-  author: "Sam Xie",
+  author: "Niklas Baack",
   hero: {
-    subtitle: "Software engineer at Cash App.",
-    description: "Building reliable and scalable systems by day. Leveraging technology to launch fully featured products by night.",
+    subtitle: "Informatik BSc - Leibniz Universität Hannover",
+    description: "Neben den Studium ist er viel auf Github oder in der Konsole. Seine lieblings IDEs sind Visual Studio Code, Intelij, Pycharm und NeoVim. Zudem baut er gerne Innovative Apps.",
     cta: "Browse Products",
   },
   products: {
     featured: [
       {
-        name: "DoubleText",
-        medium: "React · GraphQL · Golang",
-        summary: "The #1 Facebook Messenger analyzer.",
+        name: "Itemify",
+        medium: "React · Hasura · Python · S3",
+        summary: "3D Objekt Marktplatz",
         copy: [
-          "See millions of messages at a glance, without data leaving your computer."
+          "Eine Alternative zu bekannten Seiten wie Thingiverse, jedoch mit der Möglichkeit seine 3D Modelle zu verkaufen und zu welche zu kaufen. Zudem wird es hier in Zukunft einen Markt für 3D Druckaufträge geben."
         ],
         links: {
           color: "#363636",
           primary: {
-            name: "Discover",
+            name: "Check out",
             url: "https://doubletext.me/"
           }
         },
@@ -30,51 +30,53 @@ export default {
         ]
       },
       {
-        name: "ClimbList",
-        medium: "React · Next.js",
-        summary: "Construction is now in progress.",
+        name: "Obcelere",
+        medium: "Grafana · Postgres · Data Pipelines",
+        summary: "Stock Predictions",
         copy: [
-          "Compare and track grades and pricing between gyms around the country.",
+          "Wie wirken sich Medien auf Aktienkurse aus? Das habe ich mich gefragt und eine Menge Graphen basierend auf mitlerweile 10 Millionen Artikeln erstellt. Jeden Tag werden es bis zu fünftausend Artikel mehr.",
         ],
         links: {
           color: "#363636",
           primary: {
-            name: "Learn more",
-            url: "https://climblist.com/"
+            name: "Discover",
+            url: "https://grafana.baackfs.com"
           }
         },
         images: [
-          "/climblist/0.jpg",
-          "/climblist/1.jpg",
+          "/obcelere/obscelere.png",
+          "/obcelere/0.png",
+          "/obcelere/1.png",
+          "/obcelere/2.png",
         ]
       }
     ],
     // Only supports 0-3 at the moment
     minor: [
-      {
-        name: "Volunteer Portal",
-        description: "Find and track volunteer opportunities.",
-        link: {
-          name: "Github",
-          url: "https://github.com/zendesk/volunteer_portal"
-        }
-      },
-      {
-        name: "Final Slash VR",
-        description: "Short survival experience on an abandoned planet.",
-        link: {
-          name: "Download",
-          url: "https://samzx.itch.io/final-slash-vr"
-        }
-      },
-      {
-        name: "MPH Watch",
-        description: "Stats for miners mining on Mining Pool Hub.",
-        link: {
-          name: "Demo",
-          url: "https://mphwatch.samxie.net/demo"
-        }
-      }
+      // {
+      //   name: "Volunteer Portal",
+      //   description: "Find and track volunteer opportunities.",
+      //   link: {
+      //     name: "Github",
+      //     url: "https://github.com/zendesk/volunteer_portal"
+      //   }
+      // },
+      // {
+      //   name: "Final Slash VR",
+      //   description: "Short survival experience on an abandoned planet.",
+      //   link: {
+      //     name: "Download",
+      //     url: "https://samzx.itch.io/final-slash-vr"
+      //   }
+      // },
+      // {
+      //   name: "MPH Watch",
+      //   description: "Stats for miners mining on Mining Pool Hub.",
+      //   link: {
+      //     name: "Demo",
+      //     url: "https://mphwatch.samxie.net/demo"
+      //   }
+      // }
     ]
   },
   logoSection: {
@@ -82,49 +84,44 @@ export default {
     // Only supports 0-3 at the moment
     logos: [
       {
-        src: "/logos/unimelb.svg",
+        src: "/logos/vhv-versicherungen-vector-logo.svg",
         url: "https://unimelb.edu.au/",
-        alt: "Unimelb"
+        alt: "VHV Versicherung"
       },
-      {
-        src: "/logos/zendesk.svg",
-        url: "https://www.zendesk.com/",
-        alt: "Zendesk"
-      },
-      {
-        src: "/logos/cashapp.svg",
-        url: "https://cash.app/",
-        alt: "Cash App"
-      }
+      // {
+      //   src: "/logos/zendesk.svg",
+      //   url: "https://www.zendesk.com/",
+      //   alt: "Zendesk"
+      // },
+      // {
+      //   src: "/logos/cashapp.svg",
+      //   url: "https://cash.app/",
+      //   alt: "Cash App"
+      // }
   ]
   },
   footer: {
-    tagline: "Sam Xie — Melbourne, Australia",
+    tagline: "Niklas Baack — Hannover",
     links: [
       {
-        name: "Twitter",
-        url: "https://twitter.com/samxstudio",
-        fa: "fab fa-twitter" // Code from: https://fontawesome.com/v5/icons/twitter?s=brands
-      },
-      {
-        name: "Medium",
-        url: "https://medium.com/@samxie",
-        fa: "fab fa-medium"
-      },
-      {
         name: "Github",
-        url: "https://github.com/samzx",
+        url: "https://github.com/nikl234",
         fa: "fab fa-github"
       },
       {
-        name: "Linkedin",
-        url: "https://www.linkedin.com/in/xiesam/",
-        fa: "fab fa-linkedin"
+        name: "Xing",
+        url: "https://www.xing.com/profile/Niklas_Baack/",
+        fa: "fab fa-xing"
       },
       {
         name: "Email",
-        url: "mailto:contact@samxie.net",
+        url: "mailto:niklasbaack@gmail.com",
         fa: "fa fa-envelope"
+      },
+      {
+        name: "Medium",
+        url: "https://medium.com/@niklasbaack",
+        fa: "fab fa-medium"
       },
     ]
   }
