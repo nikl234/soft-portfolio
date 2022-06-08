@@ -12,7 +12,7 @@ export default {
         medium: "React · Hasura · Python · S3",
         summary: "3D Objekt Marktplatz",
         copy: [
-          "Eine Alternative zu bekannten Seiten wie Thingiverse, jedoch mit der Möglichkeit seine 3D Modelle zu verkaufen und zu welche zu kaufen. Zudem wird es hier in Zukunft einen Markt für 3D Druckaufträge geben."
+          "Eine Alternative zu bekannten Seiten wie Thingiverse, jedoch mit der Möglichkeit seine 3D Modelle zu verkaufen und andere zu kaufen. Zudem wird es hier in Zukunft einen Markt für 3D Druckaufträge geben."
         ],
         links: {
           color: "#363636",
@@ -22,11 +22,8 @@ export default {
           }
         },
         images: [
-          "/doubletext/0.jpg",
-          "/doubletext/1.jpg",
-          "/doubletext/2.jpg",
-          "/doubletext/3.jpg",
-          "/doubletext/4.jpg"
+          "/itemify/Itemify1.png",
+          "/itemify/Itemify2.png",
         ]
       },
       {
