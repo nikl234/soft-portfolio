@@ -18,7 +18,7 @@ export default {
           color: "#363636",
           primary: {
             name: "Check out",
-            url: "https://itemify.baackfs.com/"
+            url: "https://itemify.eu/"
           }
         },
         images: [
