@@ -2,7 +2,7 @@ export default {
   author: "Niklas Baack",
   hero: {
     subtitle: "Informatik BSc - Leibniz Universität Hannover",
-    description: "Neben den Studium ist er viel auf Github oder in der Konsole. Seine lieblings IDEs sind Visual Studio Code, Intelij, Pycharm und NeoVim. Zudem baut er gerne Innovative Apps.",
+    description: "In meiner Rolle als Entwickler und Data Engineer tauche ich leidenschaftlich in die Welt des Codes ein. Während meines Studiums finde ich mich oft auf Github oder im Terminal wieder und meine bevorzugten IDEs sind Visual Studio Code, IntelliJ, PyCharm und NeoVim. Dabei reizt es mich besonders, innovative Apps zu entwickeln und neue Opensource Software zu erkunden.",
     cta: "Browse Products",
   },
   products: {
