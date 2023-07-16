@@ -83,14 +83,14 @@ export default {
     logos: [
       {
         src: "/logos/vhv-versicherungen-vector-logo.svg",
-        url: "https://unimelb.edu.au/",
+        url: "https://vhv.de",
         alt: "VHV Versicherung"
       },
-      // {
-      //   src: "/logos/zendesk.svg",
-      //   url: "https://www.zendesk.com/",
-      //   alt: "Zendesk"
-      // },
+      {
+        src: "/logos/HDI-Logo.svg",
+        url: "https://hdi.de/",
+        alt: "HDI"
+      },
       // {
       //   src: "/logos/cashapp.svg",
       //   url: "https://cash.app/",
