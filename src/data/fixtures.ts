@@ -22,8 +22,9 @@ export default {
           }
         },
         images: [
-          "/itemify/Itemify1.png",
-          "/itemify/Itemify2.png",
+          "/itemify/itemify1.png",
+          "/itemify/itemify2.png",
+          "/itemify/itemify3.png",
         ]
       },
       {
